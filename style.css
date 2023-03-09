@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color:#F5F5F5;
+
+}
+.container{
+    width: 375px;
+    height: 625px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    width: 375px;
+    height: 67px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-first{
+    display: flex;
+    align-items:center; 
+}
+.section-first img{
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+.name{
+    font-weight: 900;
+    font-size: 13px;
+}
+.city{
+    font-weight: 400;
+    font-size: 12px;
+}
+.section-mid img{
+    width: 375px;
+    height: 375px;
+}
+.section-icons{
+    padding-top: 21px;
+    padding-left: 10px;
+    padding-right: 260px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-last{
+    padding-top: 13px;
+    padding-left: 13px;
+}
+button{
+    border: none;
+}
+.likes{
+    font-weight:900;
+}
+span{
+    font-weight: 900;
+}
+.comments{
+    padding-top:13px;
+    margin-bottom: 13px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
